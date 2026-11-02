@@ -1,0 +1,22 @@
+.DS_Store
+.env
+.env.*
+!.env.example
+
+# エディター・AIエージェントの個人設定
+/.idea/
+/.vscode/
+/.codex/
+/CLAUDE.local.md
+/.claude/CLAUDE.local.md
+/.claude/settings.local.json
+/.claude/worktrees/
+/.claude/sessions/
+
+# ログ・ローカルの保存先
+*.log
+/log/
+/tmp/
+/storage/
+
+# 言語・フレームワークごとの除外をここに追加する（例：/node_modules/・/.next/・/vendor/）
